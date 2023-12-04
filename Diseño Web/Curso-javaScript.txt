@@ -1,0 +1,45 @@
+-Orientado a objetos
+-Imperativo
+-Caso sensitivo (Upper and Lower Case)
+-Usados en protitipos / instancias / classless
+-Tipado debil
+-Lenguaje dinámico
+
+-FCMASRIPT (5.1 y 6, 7, 8, Next)
+
+1) Editor de texto
+
+    Personalizar Sublime Text 3
+        *Install Package Control
+        * Set Ut
+        *Color Scheme (Brogrammer)
+        *LiveReaload
+        *ColorHelper
+        *ColorPicker
+    -Otras opciones (vsc, Aton)
+
+2) ¿Para qué se usa?
+    Dinánismo de los sitios wed
+    Servidor en NodeJS
+
+3) Formas de enlazar JavaScript
+
+    -En linea
+    -Como contenido en la etiqueta <script>
+    -Como contenido en un archivo de formato .JavaScript
+    -Con un Requiere
+
+4) Variables
+    -Concepto
+    -Ejemplo
+    -Tipos de datos:String (cadenas de texto, number, boolean, IMG)
+    -Casos especiales de datos: Undefined, null, nan; 
+    -Scope
+    -Hoisting
+    -Tipos de Variables(let, var y const)
+    -Crear multiples variables (separandolas con coma)-> let nombre = 'Jorge, nombre2 = 'Romina
+
+    -Pruebas con Promp
+
+5) Operadores en JavaScript    
+    
