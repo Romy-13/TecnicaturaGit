@@ -41,5 +41,17 @@
 
     -Pruebas con Promp
 
-5) Operadores en JavaScript    
+5) Operadores en JavaScript 
+    -Operadores de asignación (IMG)
+    -Operadores Aritméticos (IMG)
+
+6) Concatenación
+    -Definición y ejemplo (IMG)   
+    -Con el signo +
+    -Para números forzamos string("" + 9+ 4) 
+    -Con concatenar
+    -Con blacktiks y la variable entre ${}
+
+7) Blacktiks (Bloque o acento Grave) y escape
+    
     
