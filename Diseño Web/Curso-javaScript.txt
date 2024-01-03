@@ -53,5 +53,24 @@
     -Con blacktiks y la variable entre ${}
 
 7) Blacktiks (Bloque o acento Grave) y escape
-    
-    
+    -Con Backticks:     linea 1
+                            linea 2
+
+   Definicióm
+   -Escape con comillas simples
+   -Escape con comillas doble
+
+8) Operadores (Intermedios)
+    -Operadores lógicos
+    -Operadores de comparación
+
+9)  Camel case
+    -Definición
+    -Usos
+    -Ejemplo
+
+10) Condicionales
+    -Definición y usos
+    -If
+    -Else If
+    Else
