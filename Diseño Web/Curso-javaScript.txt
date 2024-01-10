@@ -1,17 +1,25 @@
--Orientado a objetos
--Imperativo
--Caso sensitivo (Upper and Lower Case)
--Usados en protitipos / instancias / classless
--Tipado debil
--Lenguaje dinámico
+    "JavaScript NIVEL JUNIOR"
 
--FCMASRIPT (5.1 y 6, 7, 8, Next)
+Capítulo 1:
+Introducción- ¿Qué es javaScript?
+
+    -Lenguaje de programación: es una herremienta que nos permite darle instrucciones a un ordenador a través de códigos que está estructurado para que nosotros los programadores podamos escribirlo siguiendo una lógica de programación, que cuando lo términemos o lo completemos pueda cumplir la función que nosotros queremos.
+
+    -Interpretado:  
+    -Orientado a objetos
+    -Imperativo
+    -Case sensitive (Upper and Lower Case)
+    -Usados en protitipos / instancias / classless
+    -Tipado débil
+    -Lenguaje dinámico
+
+    -FCMASRIPT (5.1 y 6, 7, 8, Next)
 
 1) Editor de texto
 
     Personalizar Sublime Text 3
         *Install Package Control
-        * Set Ut
+        *Set Ut
         *Color Scheme (Brogrammer)
         *LiveReaload
         *ColorHelper
@@ -73,4 +81,23 @@
     -Definición y usos
     -If
     -Else If
-    Else
+    -Else
+
+11) Arrays
+    -Definición y Usos
+    -Formas de crear un array    
+
+12) Arrays Asociativos
+    -Definición
+    -Sintaxis y usos
+
+13) Bucles e Iteraciones
+    -Definición y usos
+    -Sentencia while
+    -Sentencia do while
+    -Sentencia for
+    -Sentencia for in
+    -Sentencia for of
+    -Sentencia break
+    -Sentencia label
+    -Sentencia continue    

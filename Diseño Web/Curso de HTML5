@@ -1,0 +1,109 @@
+   "Curso de HTML5"
+
+ ¿Qué significa HTML5?
+ Lenguaje de marcado de hipertexto o HyperText Markup Language, por sus siglas en inglés. Es un lenguaje que permite definir y darle estructutra a las páginas web.
+ Con el lenguaje de HTML creamos un  código que utilizamos para estructurar y desplegar una página web y sus contenidos, sin darle estilo. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.
+
+ Estructuras inicial
+ <etiqueta atributo="valor"></etiqueta>
+ <boton color="rojo" tamaño="grande" bordes="negro"></boton>
+
+ Tipos de etiquetas:
+ primer tipo de etiqueta "imput"
+ <br> (solo se abren)
+ segundo tipo de etiqueta:
+ <h1></h1>(abren y cierran)
+
+Para crear una página
+<!DOCTYPE html>
+<html>
+	<head> (lo que no se puede ver)
+		<title>Primera ṕágina web</title> (titulo de la página)
+		<meta charset="utf-8"> (MetaDato)
+	</head>
+	<body>(la que si se puede ver)
+
+		<h1>Hola Mundo</h1>
+		<h2>Hola Mundo</h2>
+		<h3>Hola Mundo</h3>
+		<h4>Hola Mundo</h4>
+		<h5>Hola Mundo</h5>
+		<h6>Hola Mundo</h6>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<br>(sirve como salto de línea, o tira los elementos hacia abajo)
+
+		<h3>Mi imagén</h3>
+		<p>
+			Acá va la <b>imagén</b>:
+		</p>
+		<img src="/home/romina/Imágenes/ IMG_20221231_225855_227.jpg" height="200px"> (añadimos una imagén)
+
+		<video src="https://youtu.be/kN1XP-Bef7w" controls="">
+			
+		</video> (para agregar videos)
+
+		<div></div>(nos sirve para separar y agrupar contenido)
+
+		<form> (formulario con atributos como el input, que es una entrada de datos)
+			<input type="" name=""
+		</form>	
+
+		<b>Negrita</b>(remarcado en negrita)
+
+		<i>Negrita</i>(elementos en cursiva)
+
+		<strike>Negrita</strike>(tacha el elemento)
+
+		<small>Negrita</small>(crea a elemento más pequeño)
+		
+		<a href="https://youtube.com" target="BLANK">Click aquí</a> (sirve para direccionar y con terget para abrir el enlace en otra ventana)
+
+		<ul>(tipo de lista desordenada)
+			<li>Título</li> (elementos de una lista)
+			<li>Subtítulos</li>
+			<li>Párrafos</li>
+			<li>Descripción</li>
+			<li>Enlace de la página</li>
+		</ul> 
+		<ol> (lista ordenada y enumerada)
+
+	</body>
+
+	
+</html>
+
+Metadatos:
+¿Qué son? es una especie de información que describr
+e otra información, describe datos, recursos, pero no se ven
+
+Tipos de meta:
+
+<meta charset="utf-8"> (Es un MetaDato) 
+etique + atributo + codificación
+(charset:conjunto de caracteres )
+
+<meta name="keywords" content="educacional,cursos,lenguaje html">
+(palabras relacionadas a la página)
+
+<meta name="description" content="Curso de HTML, vide descriptivo de aprendisaje de lenguaje HTML">
+(Para describir la página)
+
+<meta name="author" content="Romina Rodriguez">
+(Autor de la página)
+
+<meta name="copyright" content="Faceboock Inc.">
+(En caso que la empresa este registrada)
+
+<meta name="robots" content="index">
+(Es para decirle a nuestra página si está indexada o no, se utiliza para mostrar o no la pagina en internet )
+
+HTML Semántico:
+Es la manera de escribir html más legible, mejor y más óptimo para el navegador. Consiste en un encabezado y barra de navegación,un heade, un snaup, un articulo; contenido principal que puede tener secciones, una seccion, el inside, el pie de página o futter.
