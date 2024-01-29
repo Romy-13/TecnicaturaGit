@@ -1,0 +1,23 @@
+Python:
+_Introducción
+_Tipos basicos
+_control de flujo
+_Funciones
+_Tipos avanzados
+_Clases:_POO
+        _Herencia
+_Excepciones
+_Modulos
+_Librerias nativas
+_Pip:_gestion dependencias
+     _publicar modulos
+_Librerias populares
+_Introduccion de Django
+_Machine learning
+_Ejercicios
+
+REPL (read, evel, print, loop)
+Es algo que esta evaluando, leyendo e impimiendo en pantalla,se encarga de comunicarse con el usuario.
+
+Editor <-> IDE (Integrated, developret, environmen)
+IDE: Autocompletado, debugging, testing
