@@ -5,7 +5,11 @@
 		[
 			[
 				"h",
-				"html"
+				"h4\tTag"
+			],
+			[
+				"fo",
+				"footer\tTag"
 			],
 			[
 				"in",
@@ -26,10 +30,6 @@
 			[
 				"re",
 				"required\tAttr"
-			],
-			[
-				"fo",
-				"form\tTag"
 			],
 			[
 				"di",
@@ -76,29 +76,10 @@
 	"buffers":
 	[
 		{
-			"file": "/TecnicaturaGitHub/Diseño Web/Curso-javaScript.txt",
-			"settings":
-			{
-				"buffer_size": 2512,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/TecnicaturaGitHub/Diseño Web/Curso de CSS",
-			"settings":
-			{
-				"buffer_size": 12,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "Curso de CSS"
-			}
-		},
-		{
 			"file": "/TecnicaturaGitHub/Diseño Web/Curso de HTML5",
 			"settings":
 			{
-				"buffer_size": 3670,
+				"buffer_size": 3832,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "Curso de HTML5"
@@ -108,7 +89,16 @@
 			"file": "/TecnicaturaGitHub/Diseño Web/index.html",
 			"settings":
 			{
-				"buffer_size": 1796,
+				"buffer_size": 169,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/TecnicaturaGitHub/Diseño Web/micuenta.html",
+			"settings":
+			{
+				"buffer_size": 1502,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -166,20 +156,21 @@
 	},
 	"file_history":
 	[
+		"/TecnicaturaGitHub/Diseño Web/micuenta.html",
+		"/TecnicaturaGitHub/Diseño Web/Curso-javaScript.txt",
+		"/TecnicaturaGitHub/Diseño Web/Curso de CSS",
 		"/TecnicaturaGitHub/Diseño Web/codigo.js",
 		"/TecnicaturaGitHub/Diseño Web/CrearSoluciones/index.html",
 		"/TecnicaturaGitHub/Diseño Web/index.html",
 		"/TecnicaturaGitHub/Diseño Web/CrearSoluciones/codigo.js",
-		"/TecnicaturaGitHub/Diseño Web/Curso-javaScript.txt",
 		"/TecnicaturaGit/JavaScript/Leccion01/index.html",
 		"/TecnicaturaGitHub/Diseño Web/CrearSoluciones/Capitulo1.html",
-		"/TecnicaturaGitHub/Diseño Web/micuenta.html",
 		"/TecnicaturaGitHub/Diseño Web/pagina2.html",
 		"/TecnicaturaGitHub/Diseño Web/pagina 2"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -193,6 +184,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\t\t\t\t\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -210,83 +202,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/TecnicaturaGitHub/Diseño Web/Curso-javaScript.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2512,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								425,
-								425
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/TecnicaturaGitHub/Diseño Web/Curso de CSS",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12,
-								12
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Curso de CSS",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "/TecnicaturaGitHub/Diseño Web/Curso de HTML5",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3670,
+						"buffer_size": 3832,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3670,
-								3670
+								3832,
+								3832
 							]
 						],
 						"settings":
@@ -295,27 +228,27 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1588.0,
+						"translation.y": 1598.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "/TecnicaturaGitHub/Diseño Web/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1796,
+						"buffer_size": 169,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1009,
-								1009
+								128,
+								128
 							]
 						],
 						"settings":
@@ -323,10 +256,39 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 49.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/TecnicaturaGitHub/Diseño Web/micuenta.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -334,7 +296,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -371,7 +333,7 @@
 	"project": "codigo.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":

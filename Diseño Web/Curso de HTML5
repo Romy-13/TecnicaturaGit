@@ -106,4 +106,5 @@ etique + atributo + codificación
 (Es para decirle a nuestra página si está indexada o no, se utiliza para mostrar o no la pagina en internet )
 
 HTML Semántico:
-Es la manera de escribir html más legible, mejor y más óptimo para el navegador. Consiste en un encabezado y barra de navegación,un heade, un snaup, un articulo; contenido principal que puede tener secciones, una seccion, el inside, el pie de página o futter.
+Es la manera de escribir html más legible, mejor y más óptimo para el navegador. Consiste en un encabezado y barra de navegación,un header, un nav, con una lista, un articulo; contenido principal que puede tener secciones, una seccion, el inside, el pie de página o futter.
+Consiste en un artículo(article), una sección(section), un aside o contenido extra, y el footer o pie de página, generalmente para link de contactos
