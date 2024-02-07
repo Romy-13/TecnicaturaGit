@@ -1,1 +1,55 @@
-Curso de CSS
+Curso de CSS:
+
+Es un lenguaje donde se transforma las etiquetas de html 
+para darle estilo o personalizarla.
+Que significa CSS?: Cascading Stylesheets hojas de estilo en 
+cascada.
+
+Hay 4 formas de escribir codigo en CSS:
+1-estilo en linea
+2-etiqueta style(estilo CSS)
+3-etiqueta link
+4-import
+
+Para comenzar con la estructura debemos tener en cuenta  Una regla CSS que es una combinación de un selector y una o más declaraciones CSS que se aplicarán a los elementos seleccionados por ese selector. Por ejemplo:
+
+selector{
+    propiedad: valor;
+}
+
+
+Distintas formas de seleccionar un CSS selector:
+
+-Universal- "se utiliza aplicando un * dando a entender que todo el contenido es seleccionado".
+
+-De tipo- "son los que seleccionamos por elementos o 
+etiquetas, por ejemplo button, unput, h2"
+
+-Clases-"es asignar un atributo a una clase, por ejemplo class="titulo-h2
+
+-ID-"se utiliza aplicando # en un elemento seleccionado"
+
+-Por atributo-" Son las propiedades de estilo que deseas aplicar a los elementos seleccionados. Estas propiedades incluyen cosas como el color, el tamaño del texto, el espaciado, el fondo, la posición y muchos otros estilos visuales y de diseño."
+
+-Descendiente-"Los selectores de descendientes permiten seleccionar un elemento que es descendiente de otro elemento específico en el árbol de documentos HTML. Se escriben colocando un espacio entre los selectores de los elementos. Por ejemplo:
+div p {
+    color: blue
+}"
+
+-Pseudo-clases-"son palabras clave que se agregan a los selectores para aplicar un estilo específico a un estado o parte del elemento. Algunos ejemplos comunes son :hover, :active, :focus, :first-child, :nth-child(), entre otros."
+
+La lógica de la especificidad:
+
+ La especificidad se refiere a la forma en que CSS determina qué conjunto de reglas aplicar a un elemento cuando varias reglas coinciden con él. Se basa en el tipo de selector, el número de ID, clases y elementos, así como en el orden de las reglas en el archivo CSS.
+
+Por lo tanto, cuando se discute la prioridad o el peso de las reglas en CSS, se usa el término "especificidad" para referirse a esta propiedad.
+
+En orden jerárquico seria algo así:
+	-!important
+	-estilos en linea
+	-identificadores
+	-clases
+	-pseudo-clases
+	-atributos
+	-elementos
+	-pseudo-elementos
