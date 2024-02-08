@@ -1,12 +1,18 @@
-#color-blue{
+/** { 
+	font-family:'Bitter', serif ;
+	font-weight: 100;
 	color: blue;
-}
+}*/
 
-.color-red {
-	color: red !important 
-}
+/*.contact-form {
+	font-size: 2em;
 
-h1{
-	color: grey; 
-}
+}*/
+
+/*.contact-form__h2 {
+	font-size: 2em
+	color: red;
+}*/
+
+
 
