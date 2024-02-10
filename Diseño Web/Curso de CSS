@@ -1,9 +1,7 @@
 Curso de CSS:
 
-Es un lenguaje donde se transforma las etiquetas de html 
-para darle estilo o personalizarla.
-Que significa CSS?: Cascading Stylesheets hojas de estilo en 
-cascada.
+Es un lenguaje donde se transforma las etiquetas de html para darle estilo o personalizarla.
+Que significa CSS?: Cascading Stylesheets hojas de estilo en cascada.
 
 Hay 4 formas de escribir codigo en CSS:
 1-estilo en linea
@@ -21,15 +19,30 @@ selector{
 Distintas formas de seleccionar un CSS selector:
 
 -Universal- "se utiliza aplicando un * dando a entender que todo el contenido es seleccionado".
+	* {
+		color: blue;
+	}
 
 -De tipo- "son los que seleccionamos por elementos o 
 etiquetas, por ejemplo button, unput, h2"
+	h2 {
+		color: red;
+	}
 
--Clases-"es asignar un atributo a una clase, por ejemplo class="titulo-h2
+-Clases-"es asignar un atributo a una clase, por ejemplo 
+	.class="titulo-h2 {
+		color: green;
+	}
 
 -ID-"se utiliza aplicando # en un elemento seleccionado"
+	#h2 {
+		color: red:
 
+	}
 -Por atributo-" Son las propiedades de estilo que deseas aplicar a los elementos seleccionados. Estas propiedades incluyen cosas como el color, el tamaño del texto, el espaciado, el fondo, la posición y muchos otros estilos visuales y de diseño."
+	.clases="romi"{
+	   color: black;
+	}
 
 -Descendiente-"Los selectores de descendientes permiten seleccionar un elemento que es descendiente de otro elemento específico en el árbol de documentos HTML. Se escriben colocando un espacio entre los selectores de los elementos. Por ejemplo:
 div p {
@@ -37,6 +50,7 @@ div p {
 }"
 
 -Pseudo-clases-"son palabras clave que se agregan a los selectores para aplicar un estilo específico a un estado o parte del elemento. Algunos ejemplos comunes son :hover, :active, :focus, :first-child, :nth-child(), entre otros."
+
 
 La lógica de la especificidad:
 
@@ -53,3 +67,124 @@ En orden jerárquico seria algo así:
 	-atributos
 	-elementos
 	-pseudo-elementos
+
+
+Metodología VEM:
+Consiste en evitar conflictos en una forma de conocer las clases.
+La metodología VEM (View-Enhancement-Modifier) es una aproximación para estructurar y organizar el código CSS de una manera más modular y mantenible. Esta metodología se centra en separar claramente los estilos relacionados con la presentación visual de los estilos que mejoran la interactividad y los estilos que modifican el aspecto visual basado en ciertas condiciones o estados.
+
+Aquí hay una breve descripción de cada parte de la metodología VEM:
+
+    View (Vista): Esta parte se refiere a los estilos que definen la apariencia visual básica de los elementos. Incluye cosas como el color de fondo, el tamaño de la fuente, la tipografía, etc. Esta capa establece la "vista" inicial del elemento.
+
+    Enhancement (Mejora): Esta parte se enfoca en los estilos que mejoran la interactividad y la usabilidad del elemento. Pueden ser estilos que se aplican cuando un elemento está en estado de foco, hover, activo, etc. Estos estilos mejoran la experiencia del usuario y pueden incluir transiciones y animaciones.
+
+    Modifier (Modificador): Aquí es donde se definen los estilos que modifican la apariencia visual de un elemento basado en ciertas condiciones o estados. Por ejemplo, puede haber un modificador para cambiar el color de fondo de un botón cuando está deshabilitado, o un modificador para cambiar su tamaño cuando está en un estado específico.
+
+La metodología VEM promueve una separación clara y coherente de los estilos relacionados con la vista, la mejora y la modificación, lo que facilita la comprensión y el mantenimiento del código CSS a medida que el proyecto crece y evoluciona. Esto puede ayudar a reducir la duplicación de código y a mejorar la escalabilidad y la legibilidad del código CSS.
+
+Medidas relativas:
+Las medidas relativas en CSS son unidades de medida que se calculan en relación con otras propiedades del elemento o con el entorno del navegador. Estas unidades son útiles porque permiten crear diseños web más adaptables y escalables, ya que se ajustan automáticamente según el contexto. Algunas de las unidades de medida relativas más comunes son:
+
+    *em: Esta unidad de medida se basa en el tamaño de fuente del elemento padre. Por ejemplo, si el tamaño de fuente del elemento padre es de 16 píxeles y se establece el tamaño de fuente de un elemento hijo en 1.5 em, el tamaño de fuente del elemento hijo será de 24 píxeles (1.5 * 16).
+
+    *rem: Similar a la unidad em, pero en lugar de basarse en el tamaño de fuente del elemento padre, se basa en el tamaño de fuente del elemento raíz del documento HTML. Esto lo hace más predecible y fácil de manejar en ciertas situaciones.
+
+    *% (porcentaje): Los porcentajes se utilizan para definir un valor en relación con el valor de otra propiedad. Por ejemplo, si estableces el ancho de un elemento en un 50%, ocupará la mitad del ancho de su contenedor padre.
+
+    *vw (viewport width): Esta unidad representa el 1% del ancho del viewport del navegador. Por ejemplo, si estableces el ancho de un elemento en 50vw, ocupará el 50% del ancho total del viewport.
+
+    *vh (viewport height): Similar a vw, pero en lugar de basarse en el ancho del viewport, se basa en la altura del viewport.
+
+    *vmin y vmax: Estas unidades son relativas al viewport, vmin toma el valor mínimo entre vw y vh, mientras que vmax toma el valor máximo entre vw y vh.
+
+Las medidas relativas son útiles porque permiten crear diseños que se ajustan dinámicamente a diferentes tamaños de pantalla y cambios en el contenido, lo que hace que los sitios web sean más adaptables y accesibles en una variedad de dispositivos y situaciones.
+
+Prpiedades básicas de texto:
+	tamaño
+	font-style
+	text-decoration
+	list-style
+	font-size: 2em;
+	font-family: Georgia;
+	line-height: 2;
+	font-weight: normal;(el grosor de la letra)
+	font-stretch: normal;
+	font-variant: small-caps;
+
+    -font-size: 2em;: Esta regla establece el tamaño de la fuente del texto en el doble del tamaño de la fuente actual del elemento contenedor. La unidad "em" se basa en el tamaño de fuente del elemento padre.
+
+    -font-family: Georgia;: Esta propiedad especifica que el texto se mostrará con la fuente "Georgia". Si la fuente "Georgia" no está disponible en el sistema del usuario, se utilizará una fuente de respaldo.
+
+    -line-height: 2;: Aquí se define la altura de línea del texto, que es el espacio vertical entre las líneas de texto. En este caso, la altura de línea es el doble del tamaño de la fuente del texto.
+
+    -font-weight: normal;: Esto establece el grosor de la fuente del texto como "normal", lo que significa que se utilizará el peso de fuente predeterminado para la fuente especificada.
+
+    -font-stretch: normal;: Esta propiedad establece la extensión (o ancho) de la fuente del texto como "normal", lo que significa que se utilizará la extensión predeterminada de la fuente especificada.
+
+    -font-variant: small-caps;: Aquí se especifica que el texto se mostrará en "small caps" o mayúsculas pequeñas. Esto significa que las letras minúsculas se mostrarán en el mismo tamaño que las mayúsculas, pero estarán en mayúsculas.
+
+En resumen, estas reglas de estilo CSS afectan al aspecto del texto en un documento HTML, definiendo su tamaño, fuente, altura de línea, peso, extensión y estilo de las mayúsculas.	
+
+Propiedades de cajas:
+box-mode:
+	content: se modifica con line-height
+	padding
+	border
+	margin
+	tamaño
+	background color
+	image
+	border-radius
+	box-shadow
+
+Display:
+	block
+	inline-block
+	flex
+	grid
+	none
+
+Positions:
+	absolute
+	relative
+	inherit
+
+Hover
+
+Top, left, right, bottom		
+
+TIPOS DE BORDES:
+1-Solid (Sólido): Este es el estilo de borde predeterminado. Crea un borde sólido alrededor del elemento.
+
+    border-style: solid;
+
+2-Dashed (Guiones): Crea un borde formado por una serie de guiones.
+
+	border-style: dashed;
+
+3-Dotted (Punteado): Crea un borde formado por una serie de puntos.
+	
+	border-style: dotted;
+
+4-Double (Doble): Crea un borde compuesto por dos líneas sólidas separadas por un espacio.
+
+	border-style: double;
+
+5-Groove (Ranura): Crea un borde con un efecto tridimensional, parece una ranura tallada en el elemento.
+
+	border-style: groove;
+
+6-Ridge (Cresta): Similar a groove, pero invierte el efecto, creando una apariencia de crestas en lugar de ranuras.
+
+	border-style: ridge;
+
+7.Inset (Insertado): Crea un efecto de borde sombreado que parece estar tallado en el elemento.
+
+	border-style: inset;
+
+8-Outset (Sobresalido): Similar a inset, pero invierte el efecto, creando un borde que parece sobresalir del elemento.
+
+    border-style: outset;
+
+Además de estos estilos básicos, CSS también permite especificar bordes de diferentes anchos y colores utilizando las propiedades border-width y border-color, respectivamente. Estos estilos de borde pueden ser combinados para crear efectos más complejos y personalizados según las necesidades de diseño.
