@@ -1,16 +1,38 @@
 * { 
 	font-family:'Bitter', cursive;
 	font-weight: 100;
+	font-size: 30px;
 }
 
-h2 {
-	background-color: red;
-	display: inline-block;
-	padding: 100px;
-	box-sizing: border-box;
-	text-align: center;
-	margin: 20px 10px;
-	border-radius: 2em;
-	box-shadow: 30px 20px 10px 10px #000, 30px 20px 10px 10px #000;
-	text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff,2px 2px 7px #fff;
-	transform: rotate(45deg);
+body {
+	background: black;
+}
+
+
+div {
+	margin: auto;
+	margin-top: 50px;
+	width: 320px;
+	height: 350px;
+	border: 4px solid red;
+	background: grey;
+	overflow: hidden;
+
+}
+
+img {
+	width: 1000px;
+	position: relative;
+	top: 160px;
+	left: 140px;
+	outline: 2px solid blue;
+	transition: all 1.2s;
+}
+
+div:hover > img {
+	width: 1000px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	outline: 2px solid blue;
+}

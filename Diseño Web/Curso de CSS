@@ -188,3 +188,77 @@ TIPOS DE BORDES:
     border-style: outset;
 
 Además de estos estilos básicos, CSS también permite especificar bordes de diferentes anchos y colores utilizando las propiedades border-width y border-color, respectivamente. Estos estilos de borde pueden ser combinados para crear efectos más complejos y personalizados según las necesidades de diseño.
+
+
+Outline: es un shorjan
+
+Un "outline" en CSS es un estilo aplicado a un elemento HTML que generalmente se muestra como un borde alrededor del contorno del elemento, pero que es independiente del diseño del mismo. Se diferencia del borde (border) en que no afecta al diseño de la caja del elemento (no agrega espacio adicional), y típicamente se usa para resaltar elementos de formulario, enlaces o elementos interactivos cuando están enfocados o activos.
+
+El atributo outline en CSS permite establecer la apariencia del contorno de un elemento, y puede especificar su color, estilo y anchura. Se utiliza comúnmente para mejorar la accesibilidad y la usabilidad de un sitio web al proporcionar una indicación visual clara de qué elemento está actualmente enfocado o activo.
+
+div {
+outline: 2px solid blue:
+}
+
+Dentro de 0utline nos encontramos con las siguientes propiedades:
+En CSS, la propiedad position y sus valores asociados son fundamentales para controlar cómo se posicionan los elementos en una página web. Aquí tienes una descripción de los valores de la propiedad position y cómo afectan el posicionamiento de los elementos:
+
+    static: Este es el valor predeterminado de la propiedad position. Los elementos con position: static se colocan en el flujo normal del documento. Es decir, se muestran según el orden en el que aparecen en el HTML y no se ven afectados por las propiedades de posicionamiento como top, bottom, left o right.
+
+    relative: Los elementos con position: relative se posicionan en relación con su posición normal en el flujo del documento. Esto significa que puedes mover el elemento utilizando las propiedades top, bottom, left o right, pero el espacio que ocupan en el flujo normal del documento se reserva.
+
+    absolute: Los elementos con position: absolute se posicionan en relación con su contenedor posicionado más cercano. Si no hay un contenedor posicionado, se posicionan en relación con el elemento <html>. Los elementos con posición absoluta se retiran del flujo normal del documento, por lo que no afectan a la posición de otros elementos. Esto puede causar superposiciones si no se maneja correctamente.
+
+    fixed: Los elementos con position: fixed se posicionan en relación con la ventana del navegador, lo que significa que permanecen fijos incluso cuando se desplaza la página. Se utilizan comúnmente para elementos que deben permanecer visibles en todo momento, como barras de navegación o anuncios flotantes.
+
+    sticky: Los elementos con position: sticky se comportan como elementos relative hasta que alcanzan un cierto punto de desplazamiento, momento en el que se vuelven fixed. Esto permite crear efectos de "pegajosidad" donde un elemento se "pega" a medida que el usuario se desplaza hacia abajo en la página y luego se "despega" cuando alcanza cierto punto.
+
+Además de la propiedad position, hay otras propiedades que se pueden utilizar en conjunto para controlar el posicionamiento de los elementos, como top, bottom, left y right, que especifican las distancias entre el elemento y sus bordes correspondientes del contenedor posicionado más cercano.
+
+
+Propiedad display:
+	-BLOCK
+	-INLINE
+
+	-INLINE-BLOCK
+	-TABLE
+	-INLINE-TABLE
+	-LIST-TABLE
+	-TABLE-CELL
+	-TABLE-ROW
+	-TABLE-COLUMN
+
+	-GRID
+	-FLEX
+
+    1-display: block;: El elemento se muestra como un bloque y ocupa todo el ancho disponible. Normalmente comienza en una nueva línea y permite especificar el ancho y la altura.
+
+    2-display: inline;: El elemento se muestra en línea con el contenido circundante. No permite especificar el ancho y la altura, y solo ocupa el espacio necesario para su contenido.
+
+    3-display: inline-block;: Combina las características de block e inline. El elemento se muestra en línea, pero aún permite especificar el ancho y la altura.
+
+    4-display: none;: El elemento no se muestra en absoluto en la página. Es como si el elemento no existiera en el documento HTML.
+
+    5-display: flex;: Establece un contenedor de diseño de tipo flexible, lo que permite organizar los elementos secundarios de manera flexible en filas o columnas.
+
+    6-display: grid;: Establece un contenedor de diseño de tipo cuadrícula, lo que permite organizar los elementos secundarios en filas y columnas definidas explícitamente.
+
+    7-display: table;, display: table-row;, display: table-cell;: Estas propiedades son útiles para simular el comportamiento de una tabla HTML, permitiendo el diseño de elementos como una tabla sin necesidad de usar elementos table, tr, o td.
+
+    8-display: inline-flex;, display: inline-grid;: Son versiones en línea de flex y grid, respectivamente. Permite que los contenedores flexibles y de cuadrícula se muestren en línea con el contenido circundante.	
+
+
+    La propiedad overflow: en CSS controla cómo se maneja el contenido que desborda el tamaño asignado al contenedor. Aquí están las principales propiedades relacionadas con overflow:
+
+    1-overflow-x: Controla cómo se maneja el desbordamiento horizontal dentro de un elemento. Puede tener los siguientes valores:
+        -visible: El contenido desbordado es visible fuera del contenedor.
+        -hidden: El contenido desbordado está oculto y no es visible fuera del contenedor.
+        -scroll: Se agrega una barra de desplazamiento horizontal al contenedor, permitiendo al usuario desplazarse para ver el contenido desbordado.
+        -auto: Similar a scroll, pero la barra de desplazamiento solo se muestra cuando es necesario.
+
+    2-overflow-y: Similar a overflow-x, pero controla el desbordamiento vertical dentro de un elemento.
+
+    3-overflow: Esta es una forma abreviada de especificar overflow-x y overflow-y al mismo tiempo. La sintaxis es: overflow: overflow-x overflow-y;.
+
+Estas propiedades son útiles cuando se trabaja con elementos que tienen contenido que puede ser más grande que su tamaño asignado. Controlar el comportamiento del desbordamiento es importante para garantizar una experiencia de usuario consistente y adecuada en la interfaz web.
+
