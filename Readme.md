@@ -1,1 +1,1 @@
-Repositorio de practica de lenguajes, Java, JavaScript, Python
+Repositorio de practica de lenguajes: Java, JavaScript, Python, Html, CSS.
