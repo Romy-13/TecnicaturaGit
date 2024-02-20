@@ -1,15 +1,15 @@
 Curso de CSS:
 
 Es un lenguaje donde se transforma las etiquetas de html para darle estilo o personalizarla.
-Que significa CSS?: Cascading Stylesheets hojas de estilo en cascada.
+Que significa CSS?: Cascading Stylesheets:  hojas de estilo en cascada.
 
-Hay 4 formas de escribir codigo en CSS:
+Hay 4 formas de escribir código en CSS:
 1-estilo en linea
 2-etiqueta style(estilo CSS)
 3-etiqueta link
 4-import
 
-Para comenzar con la estructura debemos tener en cuenta  Una regla CSS que es una combinación de un selector y una o más declaraciones CSS que se aplicarán a los elementos seleccionados por ese selector. Por ejemplo:
+Para comenzar con la estructura debemos tener en cuenta; una regla de CSS que es una combinación de un selector y una o más declaraciones CSS que se aplicarán a los elementos seleccionados por ese selector. Por ejemplo:
 
 selector{
     propiedad: valor;
@@ -49,12 +49,11 @@ div p {
     color: blue
 }"
 
--Pseudo-clases-"son palabras clave que se agregan a los selectores para aplicar un estilo específico a un estado o parte del elemento. Algunos ejemplos comunes son :hover, :active, :focus, :first-child, :nth-child(), entre otros."
 
 
 La lógica de la especificidad:
 
- La especificidad se refiere a la forma en que CSS determina qué conjunto de reglas aplicar a un elemento cuando varias reglas coinciden con él. Se basa en el tipo de selector, el número de ID, clases y elementos, así como en el orden de las reglas en el archivo CSS.
+ "La especificidad se refiere a la forma en que CSS determina qué conjunto de reglas aplicar a un elemento cuando varias reglas coinciden con él. Se basa en el tipo de selector, el número de ID, clases y elementos, así como en el orden de las reglas en el archivo CSS".
 
 Por lo tanto, cuando se discute la prioridad o el peso de las reglas en CSS, se usa el término "especificidad" para referirse a esta propiedad.
 
@@ -70,16 +69,16 @@ En orden jerárquico seria algo así:
 
 
 Metodología VEM:
-Consiste en evitar conflictos en una forma de conocer las clases.
-La metodología VEM (View-Enhancement-Modifier) es una aproximación para estructurar y organizar el código CSS de una manera más modular y mantenible. Esta metodología se centra en separar claramente los estilos relacionados con la presentación visual de los estilos que mejoran la interactividad y los estilos que modifican el aspecto visual basado en ciertas condiciones o estados.
+	"Consiste en evitar conflictos en una forma de conocer las clases.
+	La metodología VEM (View-Enhancement-Modifier) es una aproximación para estructurar y organizar el código CSS de una manera más modular y mantenible. Esta metodología se centra en separar claramente los estilos relacionados con la presentación visual de los estilos que mejoran la interactividad y los estilos que modifican el aspecto visual basado en ciertas condiciones o estados".
 
 Aquí hay una breve descripción de cada parte de la metodología VEM:
 
-    View (Vista): Esta parte se refiere a los estilos que definen la apariencia visual básica de los elementos. Incluye cosas como el color de fondo, el tamaño de la fuente, la tipografía, etc. Esta capa establece la "vista" inicial del elemento.
+    -View (Vista): Esta parte se refiere a los estilos que definen la apariencia visual básica de los elementos. Incluye cosas como el color de fondo, el tamaño de la fuente, la tipografía, etc. Esta capa establece la "vista" inicial del elemento.
 
-    Enhancement (Mejora): Esta parte se enfoca en los estilos que mejoran la interactividad y la usabilidad del elemento. Pueden ser estilos que se aplican cuando un elemento está en estado de foco, hover, activo, etc. Estos estilos mejoran la experiencia del usuario y pueden incluir transiciones y animaciones.
+    -Enhancement (Mejora): Esta parte se enfoca en los estilos que mejoran la interactividad y la usabilidad del elemento. Pueden ser estilos que se aplican cuando un elemento está en estado de foco, hover, activo, etc. Estos estilos mejoran la experiencia del usuario y pueden incluir transiciones y animaciones.
 
-    Modifier (Modificador): Aquí es donde se definen los estilos que modifican la apariencia visual de un elemento basado en ciertas condiciones o estados. Por ejemplo, puede haber un modificador para cambiar el color de fondo de un botón cuando está deshabilitado, o un modificador para cambiar su tamaño cuando está en un estado específico.
+    -Modifier (Modificador): Aquí es donde se definen los estilos que modifican la apariencia visual de un elemento basado en ciertas condiciones o estados. Por ejemplo, puede haber un modificador para cambiar el color de fondo de un botón cuando está deshabilitado, o un modificador para cambiar su tamaño cuando está en un estado específico.
 
 La metodología VEM promueve una separación clara y coherente de los estilos relacionados con la vista, la mejora y la modificación, lo que facilita la comprensión y el mantenimiento del código CSS a medida que el proyecto crece y evoluciona. Esto puede ayudar a reducir la duplicación de código y a mejorar la escalabilidad y la legibilidad del código CSS.
 
@@ -126,7 +125,7 @@ Prpiedades básicas de texto:
 
 En resumen, estas reglas de estilo CSS afectan al aspecto del texto en un documento HTML, definiendo su tamaño, fuente, altura de línea, peso, extensión y estilo de las mayúsculas.	
 
-Propiedades de cajas:
+1)-Propiedades de cajas:
 box-mode:
 	content: se modifica con line-height
 	padding
@@ -201,7 +200,8 @@ outline: 2px solid blue:
 }
 
 Dentro de 0utline nos encontramos con las siguientes propiedades:
-En CSS, la propiedad position y sus valores asociados son fundamentales para controlar cómo se posicionan los elementos en una página web. Aquí tienes una descripción de los valores de la propiedad position y cómo afectan el posicionamiento de los elementos:
+
+2)-En CSS, la propiedad position y sus valores asociados son fundamentales para controlar cómo se posicionan los elementos en una página web. Aquí tienes una descripción de los valores de la propiedad position y cómo afectan el posicionamiento de los elementos:
 
     static: Este es el valor predeterminado de la propiedad position. Los elementos con position: static se colocan en el flujo normal del documento. Es decir, se muestran según el orden en el que aparecen en el HTML y no se ven afectados por las propiedades de posicionamiento como top, bottom, left o right.
 
@@ -216,7 +216,7 @@ En CSS, la propiedad position y sus valores asociados son fundamentales para con
 Además de la propiedad position, hay otras propiedades que se pueden utilizar en conjunto para controlar el posicionamiento de los elementos, como top, bottom, left y right, que especifican las distancias entre el elemento y sus bordes correspondientes del contenedor posicionado más cercano.
 
 
-Propiedad display:
+3)-Propiedad display:
 	-BLOCK
 	-INLINE
 
@@ -248,7 +248,7 @@ Propiedad display:
     8-display: inline-flex;, display: inline-grid;: Son versiones en línea de flex y grid, respectivamente. Permite que los contenedores flexibles y de cuadrícula se muestren en línea con el contenido circundante.	
 
 
-    La propiedad overflow: en CSS controla cómo se maneja el contenido que desborda el tamaño asignado al contenedor. Aquí están las principales propiedades relacionadas con overflow:
+4)-La propiedad overflow: en CSS controla cómo se maneja el contenido que desborda el tamaño asignado al contenedor. Aquí están las principales propiedades relacionadas con overflow:
 
     1-overflow-x: Controla cómo se maneja el desbordamiento horizontal dentro de un elemento. Puede tener los siguientes valores:
         -visible: El contenido desbordado es visible fuera del contenedor.
@@ -261,4 +261,88 @@ Propiedad display:
     3-overflow: Esta es una forma abreviada de especificar overflow-x y overflow-y al mismo tiempo. La sintaxis es: overflow: overflow-x overflow-y;.
 
 Estas propiedades son útiles cuando se trabaja con elementos que tienen contenido que puede ser más grande que su tamaño asignado. Controlar el comportamiento del desbordamiento es importante para garantizar una experiencia de usuario consistente y adecuada en la interfaz web.
+
+
+5)-Propiedad float:
+En CSS, las propiedades float se utilizan para especificar cómo deben colocarse los elementos en relación con otros elementos en un diseño de página. Algunas de las propiedades y características clave de float en CSS son:
+
+    float: Esta es la propiedad principal que se utiliza para especificar si un elemento debe flotar hacia la izquierda o hacia la derecha dentro de su contenedor. Los valores posibles son left, right, none, y inherit.
+
+    clear: Esta propiedad se utiliza para especificar si un elemento debe estar situado al lado de los elementos flotantes en el contenedor o si debe pasar por debajo de ellos. Los valores posibles son none, left, right, both, y inherit.
+
+    width: A menudo es útil especificar el ancho de un elemento flotante para evitar que ocupe más espacio del deseado. Puedes definir un ancho explícito en píxeles, porcentaje u otras unidades.
+
+    height: Similar a la propiedad width, se puede especificar la altura de un elemento flotante. Sin embargo, ten en cuenta que, en muchos casos, la altura se determinará automáticamente según el contenido a menos que especifiques una altura explícita.
+
+    margin: Controla los márgenes alrededor del elemento flotante. Puedes definir márgenes superiores, inferiores, izquierdos y derechos por separado.
+
+    padding: Al igual que con el margen, el relleno se puede aplicar alrededor del contenido del elemento flotante.
+
+    overflow: Esta propiedad controla cómo debe comportarse el contenido que se desborda del elemento flotante. Los valores comunes son visible, hidden, scroll, y auto.
+
+    position: A veces, es necesario controlar la posición exacta de un elemento flotante dentro de su contenedor. La propiedad position con valores como relative o absolute puede ser útil en estas situaciones.
+
+Es importante tener en cuenta que, aunque la propiedad float ha sido muy utilizada en el pasado para crear diseños de columnas y otras estructuras complejas, las técnicas de diseño CSS modernas, como Flexbox y Grid Layout, ofrecen un mayor control y flexibilidad en muchos casos y son preferibles en la mayoría de las situaciones.
+
+6)-Pseudo-elementos
+	::first-line 	| block
+
+	::first-letter  | block
+
+	::placeholder	
+
+	::after			| hijos - content (necesario) - inline
+
+	::before		| hijos - content (necesario) - inline
+
+	::selection
+
+
+7)- Pseudo-clases-"son palabras clave que se agregan a los selectores para aplicar un estilo específico a un estado o parte del elemento. Algunos ejemplos comunes son :hover, :active, :focus, :first-child, :nth-child(), entre otros.
+
+	:hover: Esta pseudo-clase se aplica cuando el usuario coloca el cursor sobre un elemento. Se usa comúnmente para cambiar el estilo de un elemento cuando se interactúa con él.
+
+	:active: Esta pseudo-clase se aplica cuando el elemento está activo, es decir, cuando se hace clic o se toca. Por ejemplo, al hacer clic en un botón, podría cambiar de estilo momentáneamente para indicar que está siendo presionado.
+
+	:focus: Esta pseudo-clase se aplica cuando un elemento recibe el enfoque, como cuando se hace clic en un campo de entrada o se navega a él mediante la tecla Tab. Se usa a menudo para resaltar elementos que están siendo seleccionados por el usuario.
+
+	:first-child: Se aplica a un elemento que es el primer hijo de su padre. Esto puede ser útil para aplicar estilos específicos al primer elemento de una lista, por ejemplo.
+
+	:nth-child(): Esta pseudo-clase permite seleccionar un elemento basado en su posición en relación con sus hermanos. Puedes especificar un número específico, una fórmula matemática o palabras clave como even o odd para seleccionar elementos de manera flexible.
+
+	:last-child: Se aplica al último hijo de su padre. Similar a :first-child, pero selecciona el último hijo en lugar del primero.
+
+	:nth-of-type(): Similar a :nth-child(), pero selecciona elementos basados en su tipo en lugar de su posición en la lista de hermanos. Esto es útil cuando deseas seleccionar elementos específicos de un tipo particular entre los hijos de un contenedor.
+
+
+8)-Propiedad Objet-Fit:(se trabaja con imágenes)
+
+					 Fil
+					 Contain
+					 Cover
+					 None
+					 Scale-down
+
+	Objet-position:
+			left - right - top - button
+			Px - EM - % - Ect			 
+
+9)-Propiedad Cursor:
+	https://www.w3schools.com/cssref/pr_class_cursor.php
+
+10)-Propiedad Color:
+		color name
+		hexadecimal
+		RGB
+		RGBA
+
+11)-Propiedad Responsive-Design y Mobile First
+
+12)_Propiedad Flexbox:
+					Contenedor y contenido
+					Flex container - Flex Item
+					Main Axis(main start - main End)
+					Cross Axis (cros start - cros end)
+ 				
+ 					Propiedades
 
