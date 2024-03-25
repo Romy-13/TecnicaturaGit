@@ -1,20 +1,395 @@
 Python:
-_Introducción
-_Tipos basicos
-_control de flujo
-_Funciones
-_Tipos avanzados
-_Clases:_POO
-        _Herencia
-_Excepciones
-_Modulos
-_Librerias nativas
-_Pip:_gestion dependencias
-     _publicar modulos
-_Librerias populares
-_Introduccion de Django
-_Machine learning
-_Ejercicios
+\_Introducción:
+Python es un lenguaje de programación de alto nivel, interpretado y de propósito general, creado por Guido van Rossum y lanzado por primera vez en 1991. Su diseño enfatiza la legibilidad del código y la sintaxis simple, lo que lo convierte en una excelente opción para principiantes y profesionales por igual. Con una filosofía que promueve la claridad y la simplicidad, Python se ha convertido en uno de los lenguajes más populares y ampliamente utilizados en la industria de la tecnología.
+
+Una de las características distintivas de Python es su enfoque en la legibilidad del código, lo que lo hace ideal para proyectos colaborativos y de mantenimiento a largo plazo. Además, su amplia variedad de bibliotecas y marcos de trabajo lo convierten en una herramienta versátil para una amplia gama de aplicaciones, desde desarrollo web hasta análisis de datos y aprendizaje automático.
+
+En esta introducción a Python, exploraremos los fundamentos del lenguaje, desde la sintaxis básica hasta conceptos más avanzados como la programación orientada a objetos y el manejo de excepciones. A lo largo de este viaje, descubriremos cómo Python puede ser utilizado para resolver una variedad de problemas, desde tareas simples hasta proyectos complejos y escalables.
+
+\_Tipos basicos:
+En Python, hay varios tipos básicos de datos que se utilizan para representar diferentes tipos de información. Aquí tienes una descripción de los tipos de datos más comunes:
+
+    Enteros (int): Representan números enteros sin parte decimal. Por ejemplo, 5, -3, 1000.
+
+    Flotantes (float): Representan números con parte decimal. Incluyen números reales como 3.14, -0.001, 2.5.
+
+    Cadenas (str): Son secuencias de caracteres, utilizadas para representar texto. Se escriben entre comillas simples (' ') o dobles (" "). Por ejemplo, "Hola, mundo!", 'Python es genial'.
+
+    Booleanos (bool): Representan valores de verdad, es decir, True (verdadero) o False (falso). Estos son útiles para la lógica booleana y la toma de decisiones en el código.
+
+    Listas (list): Son colecciones ordenadas y modificables de elementos. Pueden contener elementos de diferentes tipos, y se definen utilizando corchetes ([]). Por ejemplo, [1, 2, 3], ['a', 'b', 'c'].
+
+    Tuplas (tuple): Son similares a las listas, pero son inmutables, lo que significa que no se pueden modificar una vez creadas. Se definen utilizando paréntesis (()).
+    Por ejemplo, (1, 2, 3), ('a', 'b', 'c').
+
+    Diccionarios (dict): Son colecciones de pares clave-valor, donde cada valor está asociado con una clave única. Se definen utilizando llaves ({}) y tienen la forma {clave1: valor1, clave2: valor2, ...}. Por ejemplo, {'nombre': 'Juan', 'edad': 30}.
+
+    Conjuntos (set): Son colecciones desordenadas y sin elementos duplicados. Se definen utilizando llaves ({}) o la función set(). Por ejemplo, {1, 2, 3}, {'a', 'b', 'c'}.
+
+\_control de flujo:
+En Python, el control de flujo se refiere a cómo se ejecutan las instrucciones de un programa en función de ciertas condiciones. Aquí están las principales estructuras de control de flujo en Python:
+
+    Condicional if-elif-else:
+    Permite ejecutar un bloque de código si se cumple una condición, y ejecutar diferentes bloques de código según diversas condiciones.
+
+    python
+
+if condicion_1: # Código a ejecutar si condicion_1 es verdadera
+elif condicion_2: # Código a ejecutar si condicion_1 es falsa y condicion_2 es verdadera
+else: # Código a ejecutar si ninguna de las condiciones anteriores es verdadera
+
+Bucle while:
+Permite ejecutar un bloque de código repetidamente mientras una condición dada sea verdadera.
+
+python
+
+while condicion: # Código a ejecutar mientras la condición sea verdadera
+
+Bucle for:
+Itera sobre una secuencia (como una lista, tupla, conjunto o rango) y ejecuta un bloque de código para cada elemento en esa secuencia.
+
+python
+
+for elemento in secuencia: # Código a ejecutar para cada elemento en la secuencia
+
+Control de bucles:
+Se utilizan las palabras clave break y continue para controlar el flujo dentro de los bucles.
+
+    break: Termina prematuramente el bucle.
+    continue: Salta a la siguiente iteración del bucle sin ejecutar el resto del código dentro del bloque del bucle actual.
+
+\_Funciones:
+ChatGPT
+
+Las funciones en Python son bloques de código reutilizables que realizan una tarea específica cuando son llamadas. Permiten organizar el código de manera modular, lo que facilita la lectura, escritura y mantenimiento del programa. Aquí tienes una descripción de cómo definir y utilizar funciones en Python:
+
+    Definición de funciones:
+    Para definir una función en Python, se utiliza la palabra clave def, seguida del nombre de la función y paréntesis que pueden contener los parámetros de entrada de la función. La definición de la función se completa con dos puntos (:) y un bloque de código indentado que especifica las acciones que la función realiza.
+
+    python
+
+def nombre_de_funcion(parametro1, parametro2): # Bloque de código de la función # Realizar tareas con los parámetros
+return resultado # Opcional: devuelve un valor
+
+Llamada de funciones:
+Para llamar a una función y ejecutar su código, simplemente se utiliza el nombre de la función seguido de paréntesis que pueden contener los argumentos necesarios (si la función toma parámetros de entrada).
+
+python
+
+resultado = nombre_de_funcion(valor1, valor2)
+
+Parámetros y argumentos:
+Los parámetros son variables que se utilizan en la definición de la función, mientras que los argumentos son los valores reales que se pasan a la función cuando se llama. Python admite diferentes tipos de parámetros, como parámetros posicionales, parámetros con valores por defecto y parámetros de longitud variable.
+
+Instrucción return:
+La instrucción return se utiliza para devolver un valor desde una función. Puede devolver un solo valor o una tupla de valores. Si no se especifica ningún valor de retorno, la función devuelve None de forma implícita.
+
+Funciones lambda:
+Las funciones lambda son funciones anónimas y de una sola expresión que se definen utilizando la palabra clave lambda. Son útiles cuando se requieren funciones pequeñas y simples.
+
+python
+
+    lambda parametro: expresion
+
+    Documentación de funciones:
+    Es una buena práctica documentar las funciones utilizando comentarios para describir lo que hace la función, qué parámetros espera y qué devuelve. Esto facilita la comprensión del código por parte de otros programadores y de uno mismo en el futuro.
+
+Las funciones son una parte fundamental de la programación en Python y son clave para escribir código modular y reutilizable. Permiten dividir tareas complejas en partes más pequeñas y manejables, lo que facilita el desarrollo y el mantenimiento del código.
+
+\_Tipos avanzados:
+Los tipos de datos avanzados en Python son estructuras de datos más complejas que permiten almacenar y manipular colecciones de datos de manera eficiente. Aquí hay algunos tipos avanzados comunes:
+
+    Diccionarios (dict):
+    Los diccionarios son colecciones de pares clave-valor, donde cada valor está asociado con una clave única. Son muy útiles para almacenar datos estructurados y acceder a ellos de manera eficiente utilizando las claves.
+
+    python
+
+mi_diccionario = {"nombre": "Juan", "edad": 30, "ciudad": "Madrid"}
+
+Conjuntos (set):
+Los conjuntos son colecciones desordenadas y sin elementos duplicados. Son útiles para realizar operaciones de conjuntos como unión, intersección y diferencia de manera eficiente.
+
+python
+
+mi_conjunto = {1, 2, 3, 4, 5}
+
+Tuplas con nombre (namedtuple):
+Las tuplas con nombre son similares a las tuplas normales, pero permiten acceder a los elementos utilizando nombres de campo en lugar de índices numéricos. Son útiles cuando se necesita una estructura de datos inmutable con campos etiquetados.
+
+python
+
+from collections import namedtuple
+Persona = namedtuple('Persona', ['nombre', 'edad'])
+persona1 = Persona(nombre='Juan', edad=30)
+
+Colas (deque):
+Las colas dobles (deque) son una estructura de datos que admite inserciones y eliminaciones eficientes tanto al principio como al final de la cola. Son útiles para implementar colas y pilas.
+
+python
+
+from collections import deque
+cola = deque(["a", "b", "c"])
+
+Diccionarios ordenados (OrderedDict):
+Los diccionarios ordenados son diccionarios que recuerdan el orden de inserción de sus elementos. A partir de Python 3.7, los diccionarios estándar también conservan el orden de inserción, pero OrderedDict sigue siendo útil para versiones anteriores.
+
+python
+
+from collections import OrderedDict
+mi_diccionario_ordenado = OrderedDict({"a": 1, "b": 2, "c": 3})
+
+Contadores (Counter):
+Los contadores son una subclase de diccionarios que cuentan el número de ocurrencias de elementos en una colección.
+
+python
+
+    from collections import Counter
+    conteo = Counter(['a', 'b', 'a', 'c', 'b', 'a'])
+
+Estos tipos de datos avanzados proporcionan herramientas poderosas para manejar y manipular datos de manera eficiente en Python. Se utilizan comúnmente en aplicaciones que involucran análisis de datos, procesamiento de texto, manipulación de estructuras de datos complejas y mucho más
+
+\_Clases:
+En Python, la Programación Orientada a Objetos (POO) es un paradigma que permite modelar el mundo real a través de la definición de clases y objetos. Aquí tienes una descripción de cómo trabajar con clases y objetos en Python:
+
+    Definición de una clase:
+    Una clase es una plantilla para crear objetos. Define los atributos (variables) y métodos (funciones) que tendrán los objetos de esa clase. Se define utilizando la palabra clave class, seguida del nombre de la clase y dos puntos (:).
+
+    python
+
+class Persona:
+def **init**(self, nombre, edad):
+self.nombre = nombre
+self.edad = edad
+
+    def saludar(self):
+        print(f"Hola, mi nombre es {self.nombre} y tengo {self.edad} años.")
+
+Creación de objetos (instancias):
+Los objetos son instancias de una clase específica. Se crean utilizando el nombre de la clase seguido de paréntesis, que pueden contener argumentos para inicializar el objeto.
+
+python
+
+persona1 = Persona("Juan", 30)
+
+Atributos y métodos:
+Los atributos son variables que pertenecen a un objeto específico, mientras que los métodos son funciones que pueden ser llamadas en un objeto para realizar ciertas acciones.
+
+python
+
+print(persona1.nombre) # Accediendo al atributo nombre
+persona1.saludar() # Llamando al método saludar
+
+Constructor (**init**):
+El método **init** es un método especial que se llama automáticamente al crear un nuevo objeto de la clase. Se utiliza para inicializar los atributos de un objeto.
+
+Encapsulamiento:
+Python no implementa encapsulamiento como otros lenguajes de programación orientados a objetos como Java o C++. Sin embargo, se puede simular el encapsulamiento haciendo que los atributos y métodos de una clase sean privados (prefijándolos con doble guion bajo \_\_), lo que indica que no deben ser accedidos directamente desde fuera de la clase.
+
+Herencia:
+La herencia permite que una clase (subclase) herede atributos y métodos de otra clase (superclase). Esto fomenta la reutilización del código y la creación de una jerarquía de clases.
+
+python
+
+    class Estudiante(Persona):
+        def __init__(self, nombre, edad, grado):
+            super().__init__(nombre, edad)
+            self.grado = grado
+
+        def estudiar(self):
+            print(f"{self.nombre} está estudiando en el grado {self.grado}.")
+
+    Polimorfismo:
+    El polimorfismo permite que objetos de diferentes clases respondan a la misma llamada de método de manera diferente. Esto se logra mediante el uso de métodos con el mismo nombre en diferentes clases.
+
+La programación orientada a objetos en Python es una herramienta poderosa que permite la creación de código modular, reutilizable y fácil de mantener. Es ampliamente utilizada en el desarrollo de aplicaciones complejas y en la implementación de bibliotecas y marcos de trabajo
+
+\_Excepciones:
+En Python, las excepciones son errores que ocurren durante la ejecución de un programa y que interrumpen el flujo normal de ejecución. Sin embargo, Python proporciona un mecanismo para manejar estas situaciones inesperadas mediante el uso de bloques de código conocidos como "try-except". Aquí tienes una descripción de cómo manejar excepciones en Python:
+
+    Bloque try-except:
+    Se utiliza para manejar excepciones que pueden ocurrir dentro de un bloque de código. El bloque try contiene el código que puede generar una excepción, mientras que el bloque except contiene el código para manejar la excepción si ocurre.
+
+    python
+
+try: # Bloque de código que puede generar una excepción
+resultado = 10 / 0 # Genera una excepción ZeroDivisionError
+except ZeroDivisionError: # Manejo de la excepción
+print("Error: División por cero")
+
+Excepciones específicas:
+Se pueden capturar excepciones específicas para manejar diferentes tipos de errores de manera diferente.
+
+python
+
+try:
+archivo = open("archivo_no_existente.txt", "r")
+except FileNotFoundError:
+print("Error: El archivo no existe")
+except IOError:
+print("Error: Error de lectura/escritura en el archivo")
+
+Bloque finally:
+Opcionalmente, se puede utilizar un bloque finally para ejecutar código independientemente de si se produce una excepción o no. Este bloque se ejecuta siempre, incluso si se produce una excepción y se maneja en el bloque except.
+
+python
+
+try: # Bloque de código que puede generar una excepción
+archivo = open("archivo.txt", "r")
+except FileNotFoundError:
+print("Error: El archivo no existe")
+finally: # Código que se ejecuta siempre, se produzca o no una excepción
+print("Cerrando el archivo")
+archivo.close()
+
+Lanzar excepciones:
+Además de manejar excepciones, también puedes lanzar excepciones manualmente utilizando la instrucción raise.
+
+python
+
+    x = -5
+    if x < 0:
+        raise ValueError("El valor no puede ser negativo")
+
+El manejo adecuado de excepciones en Python es fundamental para escribir código robusto y prevenir fallos inesperados. Permite anticiparse a posibles problemas y proporcionar una respuesta controlada en caso de que ocurran errores durante la ejecución del programa
+
+\_Modulos:
+En Python, los módulos son archivos que contienen definiciones de funciones, clases y variables que pueden ser utilizadas en otros programas de Python. Los módulos permiten organizar el código en archivos separados y reutilizarlo en diferentes partes de un proyecto o en proyectos diferentes. Aquí hay una descripción de cómo trabajar con módulos en Python:
+
+    Creación de un módulo:
+    Para crear un módulo en Python, simplemente crea un archivo con extensión .py y escribe las definiciones de funciones, clases y variables que deseas incluir en el módulo.
+
+    python
+
+#Ejemplo de módulo llamado mi_modulo.py
+
+def saludar(nombre):
+print(f"Hola, {nombre}!")
+
+def sumar(a, b):
+return a + b
+
+Importación de un módulo:
+Para utilizar las funciones, clases o variables definidas en un módulo en otro programa de Python, primero debes importar el módulo utilizando la palabra clave import, seguida del nombre del módulo (sin la extensión .py).
+
+python
+
+import mi_modulo
+
+mi_modulo.saludar("Juan")
+resultado = mi_modulo.sumar(3, 5)
+print(resultado)
+
+Importación de funciones específicas:
+También puedes importar funciones específicas de un módulo utilizando la sintaxis from ... import ....
+
+python
+
+from mi_modulo import saludar
+
+saludar("María")
+
+Renombramiento durante la importación:
+Puedes renombrar un módulo o las funciones, clases o variables que importas utilizando la sintaxis as.
+
+python
+
+import mi_modulo as mm
+
+mm.saludar("Pedro")
+
+Módulos integrados:
+Python viene con una biblioteca estándar que incluye una amplia gama de módulos integrados que proporcionan funcionalidades adicionales. Estos módulos pueden ser importados y utilizados directamente en tu código.
+
+python
+
+import random
+
+numero_aleatorio = random.randint(1, 100)
+print(numero_aleatorio)
+
+Paquetes:
+Un paquete en Python es una carpeta que contiene uno o más módulos. Para crear un paquete, simplemente crea una carpeta y coloca archivos .py (módulos) dentro de ella. Además, puede incluir un archivo especial llamado **init**.py que indica que la carpeta es un paquete de Python.
+
+markdown
+
+    mi_paquete/
+    ├── __init__.py
+    ├── modulo1.py
+    └── modulo2.py
+
+Los módulos son una herramienta poderosa en Python que facilita la organización y reutilización del código. Permiten dividir grandes proyectos en partes más pequeñas y manejables, lo que simplifica el desarrollo y el mantenimiento del software
+
+\_Librerias nativas:
+En Python, las bibliotecas nativas, también conocidas como bibliotecas estándar, son un conjunto de módulos y paquetes que vienen incluidos con la instalación estándar de Python. Estas bibliotecas proporcionan una amplia gama de funcionalidades para realizar tareas comunes en el desarrollo de software. Aquí hay algunos ejemplos de bibliotecas nativas comunes en Python:
+
+    os:
+    Este módulo proporciona una interfaz para interactuar con el sistema operativo. Se utiliza para realizar operaciones como manipulación de archivos y directorios, acceso a variables de entorno y más.
+
+    python
+
+import os
+
+print(os.getcwd()) # Obtiene el directorio de trabajo actual
+
+datetime:
+Este módulo proporciona clases para trabajar con fechas y horas en Python.
+
+python
+
+import datetime
+
+fecha_actual = datetime.date.today()
+print(fecha_actual)
+
+random:
+Este módulo se utiliza para generar números aleatorios y realizar operaciones relacionadas con la aleatoriedad.
+
+python
+
+import random
+
+numero_aleatorio = random.randint(1, 100)
+print(numero_aleatorio)
+
+math:
+Este módulo proporciona funciones y constantes matemáticas para realizar operaciones matemáticas más avanzadas.
+
+python
+
+import math
+
+valor_absoluto = math.fabs(-5)
+print(valor_absoluto)
+
+json:
+Este módulo se utiliza para trabajar con datos en formato JSON (JavaScript Object Notation).
+
+python
+
+import json
+
+datos = '{"nombre": "Juan", "edad": 30}'
+diccionario = json.loads(datos)
+print(diccionario)
+
+sys:
+Este módulo proporciona acceso a algunas variables y funciones específicas del intérprete de Python.
+
+python
+
+    import sys
+
+    print(sys.version)  # Obtiene la versión de Python
+
+Estas son solo algunas de las bibliotecas nativas disponibles en Python. La biblioteca estándar de Python es muy extensa y cubre una amplia gama de funcionalidades, incluyendo acceso a la red, manipulación de cadenas, procesamiento de datos, y mucho más. Al aprovechar estas bibliotecas, puedes escribir código más eficiente y reducir la necesidad de reinventar la rueda al desarrollar tus aplicaciones.
+
+\_Pip:
+\_gestion dependencias
+\_publicar modulos
+\_Librerias populares
+\_Introduccion de Django
+\_Machine learning
+\_Ejercicios
 
 REPL (read, evel, print, loop)
 Es algo que esta evaluando, leyendo e impimiendo en pantalla,se encarga de comunicarse con el usuario.
