@@ -1,0 +1,23 @@
+Al trabajar en VSC se debe hacer por terminal
+1-Crea el entorno virtual:
+python -m venv venv  -> esto para window
+python3 -m venv venv -> esto para linux
+
+2- Activar el entorno virtual desde terminal:
+source venv/bin/activate  -> esto para linux
+venv/scripts/activate     -> esto en window
+
+3- Desactivar el entorno virtual:
+tarea para enviar por correo institucional:
+¿Cómo se desactiva el entorn virtual desde la terminal?
+Para desactivarlo tanto en Windows como en Linux y Mac solo debemos lanzar el siguiente comando en la terminal: 
+deactivate  -> para linux, window 
+Esto te sacará del entorno virtual y te devolverá al entorno normal.
+
+¿Cuál es el comando?
+desactivate
+
+4- Enviarr respuesta junto con la anterior:
+¿Qué es el DOM?
+El **DOM** (Modelo de Objetos del Documento) es una estructura de objetos que el navegador crea en memoria para representar la estructura de un documento web, como una página HTML. En general, se refiere a JavaScript, aunque también se puede aplicar a documentos HTML, SVG o XML. El DOM representa el documento como un árbol lógico, donde cada rama termina en un nodo y cada nodo contiene objetos. A través de métodos DOM, puedes acceder y modificar la estructura, estilo o contenido del documento.😊
+
