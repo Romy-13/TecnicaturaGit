@@ -227,3 +227,14 @@
             Apellido: Romos,
             Email: homero@gmail.com
         
+09:58:38 AM:DEBUG [conecction.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f1e751f4b80>
+09:58:38 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f1e7526f900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:00:04 AM:DEBUG [conecction.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f7168640b80>
+10:00:04 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f71686bb900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:02:14 AM:DEBUG [conecction.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7efe47733b80>
+10:02:14 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7efe477ae900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:02:14 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7efe477aee00; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:03:06 AM:DEBUG [conecction.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f0a38fbcb80>
+10:03:06 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f0a39037900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:03:06 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f0a39037e00; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:03:06 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f0a37d2d040; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
