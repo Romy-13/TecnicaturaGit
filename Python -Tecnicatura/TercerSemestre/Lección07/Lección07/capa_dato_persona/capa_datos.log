@@ -1,0 +1,576 @@
+07:28:06 PM:DEBUG [loggin_base.py:14] Mensaje a nivel debug
+07:28:06 PM:INFO [loggin_base.py:16] Mensaje a nivel info
+07:28:06 PM:WARNING [loggin_base.py:18] Mensaje a nivel warning
+07:28:06 PM:ERROR [loggin_base.py:21] Mensajea anivel error
+07:28:06 PM:CRITICAL [loggin_base.py:23] Mensaje a nivel critical
+05:15:03 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+05:15:03 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
+05:15:29 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+05:15:29 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
+05:17:06 PM:DEBUG [Persona.py:55] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+05:17:06 PM:DEBUG [Persona.py:57] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
+06:10:46 PM:ERROR [conecction.py:28] Ocurrio un error
+06:17:47 PM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f811cc7a900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+06:22:11 PM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f3730b5c900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:27:05 PM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f47b53c82c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:27:05 PM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7f47b550bd60; closed: 0>
+08:27:32 PM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f6e8ed702c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:27:32 PM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7f6e8fe6fd60; closed: 0>
+08:27:32 PM:DEBUG [persona_dao.py:37] 
+            Id Persona: 1,
+            Nombre: Juan Manuel,
+            Apellido: Roldan,
+            Email: manurol@gmail.com
+        
+08:27:32 PM:DEBUG [persona_dao.py:37] 
+            Id Persona: 2,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+08:27:32 PM:DEBUG [persona_dao.py:37] 
+            Id Persona: 8,
+            Nombre: Carlos,
+            Apellido: Lara,
+            Email: clar@gmail.com
+        
+08:27:32 PM:DEBUG [persona_dao.py:37] 
+            Id Persona: 9,
+            Nombre: Marcos,
+            Apellido: Canto,
+            Email: mcanto@gmail.com
+        
+08:27:32 PM:DEBUG [persona_dao.py:37] 
+            Id Persona: 10,
+            Nombre: Marcelo,
+            Apellido: Cuenca,
+            Email: CuencaM@gmail.com
+        
+08:27:32 PM:DEBUG [persona_dao.py:37] 
+            Id Persona: 12,
+            Nombre: Maria,
+            Apellido: Esparza,
+            Email: mesparza@gmail.com
+        
+08:27:32 PM:DEBUG [persona_dao.py:37] 
+            Id Persona: 13,
+            Nombre: Carlos,
+            Apellido: Lara,
+            Email: carlara@gmail.com
+        
+08:27:32 PM:DEBUG [persona_dao.py:37] 
+            Id Persona: 14,
+            Nombre: Jorge,
+            Apellido: Fernandez,
+            Email: jorfer@gmail.com
+        
+08:27:32 PM:DEBUG [persona_dao.py:37] 
+            Id Persona: 15,
+            Nombre: Alex,
+            Apellido: Rojas,
+            Email: alero@gmail.com
+        
+08:36:09 PM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f19b9af32c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:36:09 PM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7f19babf3d60; closed: 0>
+08:39:06 PM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f325fb202c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:39:06 PM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7f3260c20d60; closed: 0>
+08:41:03 PM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7fdda47192c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:41:03 PM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7fdda5819d60; closed: 0>
+08:44:42 PM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f60c43412c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:44:42 PM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7f60c5441d60; closed: 0>
+08:53:24 PM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7fb56c7e02c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:53:24 PM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7fb56d8e0d60; closed: 0>
+08:53:24 PM:DEBUG [persona_dao.py:39] Persona insertada: 
+            Id Persona: None,
+            Nombre: Pedro,
+            Apellido: Romero,
+            Email: promero@gmail.com
+        
+08:53:24 PM:DEBUG [persona_dao.py:47] Personas insertadas: 1
+09:16:07 PM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f55be1e42c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:16:07 PM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7f55bf2e4d60; closed: 0>
+09:16:07 PM:DEBUG [persona_dao.py:39] Persona insertada: 
+            Id Persona: None,
+            Nombre: Homero,
+            Apellido: Romos,
+            Email: homero@gmail.com
+        
+09:16:07 PM:DEBUG [persona_dao.py:47] Personas insertadas: 1
+09:18:00 PM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f2ef42db2c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:18:00 PM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7f2ef53dbd60; closed: 0>
+09:18:00 PM:DEBUG [persona_dao.py:39] Persona insertada: 
+            Id Persona: None,
+            Nombre: Homero,
+            Apellido: Romos,
+            Email: homero@gmail.com
+        
+09:18:00 PM:DEBUG [persona_dao.py:47] Personas insertadas: 1
+09:02:20 AM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f9dfbdb02c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:02:20 AM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7f9dfceb1d60; closed: 0>
+09:07:05 AM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7fd29aaaa2c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:07:05 AM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7fd29bbabd60; closed: 0>
+09:13:43 AM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f48646e22c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:13:43 AM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7f48657e4d60; closed: 0>
+09:13:43 AM:DEBUG [persona_dao.py:48] Persona actualizada: 
+            Id Persona: 1,
+            Nombre: Juan Jose,
+            Apellido: Pena,
+            Email: jjpena@gmail.com
+        
+09:13:43 AM:DEBUG [persona_dao.py:55] Personas actualizadas: 1
+09:26:26 AM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7f6f312162c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:26:26 AM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7f6f32316d60; closed: 0>
+09:30:26 AM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7fe523f232c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:30:26 AM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7fe525023d60; closed: 0>
+09:30:26 AM:DEBUG [persona_dao.py:57] Los objetos eliminados son: 
+            Id Persona: 18,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+09:30:26 AM:DEBUG [persona_dao.py:64] Personas eliminadas: 1
+09:31:58 AM:DEBUG [conecction.py:25] Conexion exitosa: <connection object at 0x7fd2740f72c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:31:58 AM:DEBUG [conecction.py:38] Se abrió correctamente el cursor: <cursor object at 0x7fd2751f7d60; closed: 0>
+09:31:58 AM:DEBUG [persona_dao.py:80] 
+            Id Persona: 1,
+            Nombre: Juan Jose,
+            Apellido: Pena,
+            Email: jjpena@gmail.com
+        
+09:31:58 AM:DEBUG [persona_dao.py:80] 
+            Id Persona: 2,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+09:31:58 AM:DEBUG [persona_dao.py:80] 
+            Id Persona: 8,
+            Nombre: Carlos,
+            Apellido: Lara,
+            Email: clar@gmail.com
+        
+09:31:58 AM:DEBUG [persona_dao.py:80] 
+            Id Persona: 9,
+            Nombre: Marcos,
+            Apellido: Canto,
+            Email: mcanto@gmail.com
+        
+09:31:58 AM:DEBUG [persona_dao.py:80] 
+            Id Persona: 10,
+            Nombre: Marcelo,
+            Apellido: Cuenca,
+            Email: CuencaM@gmail.com
+        
+09:31:58 AM:DEBUG [persona_dao.py:80] 
+            Id Persona: 12,
+            Nombre: Maria,
+            Apellido: Esparza,
+            Email: mesparza@gmail.com
+        
+09:31:58 AM:DEBUG [persona_dao.py:80] 
+            Id Persona: 13,
+            Nombre: Carlos,
+            Apellido: Lara,
+            Email: carlara@gmail.com
+        
+09:31:58 AM:DEBUG [persona_dao.py:80] 
+            Id Persona: 14,
+            Nombre: Jorge,
+            Apellido: Fernandez,
+            Email: jorfer@gmail.com
+        
+09:31:58 AM:DEBUG [persona_dao.py:80] 
+            Id Persona: 15,
+            Nombre: Alex,
+            Apellido: Rojas,
+            Email: alero@gmail.com
+        
+09:31:58 AM:DEBUG [persona_dao.py:80] 
+            Id Persona: 16,
+            Nombre: Pedro,
+            Apellido: Romero,
+            Email: promero@gmail.com
+        
+09:31:58 AM:DEBUG [persona_dao.py:80] 
+            Id Persona: 17,
+            Nombre: Homero,
+            Apellido: Romos,
+            Email: homero@gmail.com
+        
+09:58:38 AM:DEBUG [conecction.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f1e751f4b80>
+09:58:38 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f1e7526f900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:00:04 AM:DEBUG [conecction.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f7168640b80>
+10:00:04 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f71686bb900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:02:14 AM:DEBUG [conecction.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7efe47733b80>
+10:02:14 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7efe477ae900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:02:14 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7efe477aee00; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:03:06 AM:DEBUG [conecction.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f0a38fbcb80>
+10:03:06 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f0a39037900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:03:06 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f0a39037e00; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:03:06 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f0a37d2d040; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:49:55 AM:DEBUG [conecction.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f907c249280>
+08:49:55 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f907d46f900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:49:55 AM:DEBUG [conecction.py:49] Regresamos la conexion del pool: <connection object at 0x7f907d46f900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fcb3a8fc250>
+08:52:32 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:49] Regresamos la conexion del pool: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:49] Regresamos la conexion del pool: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:49] Regresamos la conexion del pool: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:49] Regresamos la conexion del pool: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:49] Regresamos la conexion del pool: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:32 AM:DEBUG [conecction.py:49] Regresamos la conexion del pool: <connection object at 0x7fcb3bb22900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:55:46 AM:DEBUG [conecction.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f70d9a4d250>
+08:55:46 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f70dac73900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:55:46 AM:DEBUG [conecction.py:49] Regresamos la conexion del pool: <connection object at 0x7f70dac73900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:55:46 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f70dac73900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:55:46 AM:DEBUG [conecction.py:49] Regresamos la conexion del pool: <connection object at 0x7f70dac73900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:55:46 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f70dac73900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:55:46 AM:DEBUG [conecction.py:49] Regresamos la conexion del pool: <connection object at 0x7f70dac73900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:55:46 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f70dac73900; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:55:46 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f70dac73e00; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:55:46 AM:DEBUG [conecction.py:20] Conexion obtenida del poll: <connection object at 0x7f70d9969040; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:27:27 AM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+09:27:27 AM:DEBUG [conexion.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f242c202c10>
+09:27:27 AM:DEBUG [conexion.py:20] Conexion obtenida del poll: <connection object at 0x7f242aff5400; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:27:27 AM:DEBUG [cursor_del_pool.py:29] Dentro del bloque with
+09:27:27 AM:DEBUG [cursor_del_pool.py:17] Se ejecuta el metodo exit
+09:27:27 AM:DEBUG [cursor_del_pool.py:20] Ocurrio una exception: 'NoneType' object has no attribute 'execute'
+09:32:23 AM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+09:32:23 AM:DEBUG [conexion.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f5809444c10>
+09:32:23 AM:DEBUG [conexion.py:20] Conexion obtenida del poll: <connection object at 0x7f5808237400; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:32:23 AM:DEBUG [cursor_del_pool.py:29] Dentro del bloque with
+09:32:23 AM:DEBUG [cursor_del_pool.py:17] Se ejecuta el metodo exit
+09:32:23 AM:DEBUG [cursor_del_pool.py:20] Ocurrio una exception: 'NoneType' object has no attribute 'execute'
+09:38:12 AM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+09:38:12 AM:DEBUG [conexion.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fe31e3b8c10>
+09:38:12 AM:DEBUG [conexion.py:20] Conexion obtenida del poll: <connection object at 0x7fe31d190400; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09:38:12 AM:DEBUG [cursor_del_pool.py:29] Dentro del bloque with
+09:38:12 AM:DEBUG [cursor_del_pool.py:31] [(2, 'Juan', 'Perez', 'jp@gmail.com'), (8, 'Carlos', 'Lara', 'clar@gmail.com'), (9, 'Marcos', 'Canto', 'mcanto@gmail.com'), (10, 'Marcelo', 'Cuenca', 'CuencaM@gmail.com'), (12, 'Maria', 'Esparza', 'mesparza@gmail.com'), (13, 'Carlos', 'Lara', 'carlara@gmail.com'), (14, 'Jorge', 'Fernandez', 'jorfer@gmail.com'), (15, 'Alex', 'Rojas', 'alero@gmail.com'), (16, 'Pedro', 'Romero', 'promero@gmail.com'), (17, 'Homero', 'Romos', 'homero@gmail.com'), (1, 'Juan Jose', 'Pena', 'jjpena@gmail.com')]
+09:38:12 AM:DEBUG [cursor_del_pool.py:17] Se ejecuta el metodo exit
+09:38:12 AM:DEBUG [cursor_del_pool.py:23] Commit de la transación
+09:38:12 AM:DEBUG [conexion.py:49] Regresamos la conexion del pool: <connection object at 0x7fe31d190400; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:41:32 AM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+08:41:32 AM:DEBUG [conexion.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fca2d2e8c10>
+08:41:32 AM:DEBUG [conexion.py:20] Conexion obtenida del poll: <connection object at 0x7fca2c0c0400; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:41:32 AM:DEBUG [cursor_del_pool.py:29] Dentro del bloque with
+08:41:32 AM:DEBUG [cursor_del_pool.py:31] [(2, 'Juan', 'Perez', 'jp@gmail.com'), (8, 'Carlos', 'Lara', 'clar@gmail.com'), (9, 'Marcos', 'Canto', 'mcanto@gmail.com'), (10, 'Marcelo', 'Cuenca', 'CuencaM@gmail.com'), (12, 'Maria', 'Esparza', 'mesparza@gmail.com'), (13, 'Carlos', 'Lara', 'carlara@gmail.com'), (14, 'Jorge', 'Fernandez', 'jorfer@gmail.com'), (15, 'Alex', 'Rojas', 'alero@gmail.com'), (16, 'Pedro', 'Romero', 'promero@gmail.com'), (17, 'Homero', 'Romos', 'homero@gmail.com'), (1, 'Juan Jose', 'Pena', 'jjpena@gmail.com')]
+08:41:32 AM:DEBUG [cursor_del_pool.py:17] Se ejecuta el metodo exit
+08:41:32 AM:DEBUG [cursor_del_pool.py:23] Commit de la transación
+08:41:32 AM:DEBUG [conexion.py:49] Regresamos la conexion del pool: <connection object at 0x7fca2c0c0400; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:50:17 AM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+08:50:17 AM:DEBUG [conexion.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fd469247c10>
+08:50:17 AM:DEBUG [conexion.py:20] Conexion obtenida del poll: <connection object at 0x7fd4693912c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:50:17 AM:DEBUG [cursor_del_pool.py:17] Se ejecuta el metodo exit
+08:50:17 AM:DEBUG [cursor_del_pool.py:23] Commit de la transación
+08:50:17 AM:DEBUG [conexion.py:49] Regresamos la conexion del pool: <connection object at 0x7fd4693912c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:50:17 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 1,
+            Nombre: Juan Jose,
+            Apellido: Pena,
+            Email: jjpena@gmail.com
+        
+08:50:17 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 2,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+08:50:17 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 8,
+            Nombre: Carlos,
+            Apellido: Lara,
+            Email: clar@gmail.com
+        
+08:50:17 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 9,
+            Nombre: Marcos,
+            Apellido: Canto,
+            Email: mcanto@gmail.com
+        
+08:50:17 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 10,
+            Nombre: Marcelo,
+            Apellido: Cuenca,
+            Email: CuencaM@gmail.com
+        
+08:50:17 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 12,
+            Nombre: Maria,
+            Apellido: Esparza,
+            Email: mesparza@gmail.com
+        
+08:50:17 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 13,
+            Nombre: Carlos,
+            Apellido: Lara,
+            Email: carlara@gmail.com
+        
+08:50:17 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 14,
+            Nombre: Jorge,
+            Apellido: Fernandez,
+            Email: jorfer@gmail.com
+        
+08:50:17 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 15,
+            Nombre: Alex,
+            Apellido: Rojas,
+            Email: alero@gmail.com
+        
+08:50:17 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 16,
+            Nombre: Pedro,
+            Apellido: Romero,
+            Email: promero@gmail.com
+        
+08:50:17 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 17,
+            Nombre: Homero,
+            Apellido: Romos,
+            Email: homero@gmail.com
+        
+08:52:29 AM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+08:52:29 AM:DEBUG [conexion.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fa044021b20>
+08:52:29 AM:DEBUG [conexion.py:20] Conexion obtenida del poll: <connection object at 0x7fa0440a82c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:29 AM:DEBUG [persona_dao.py:38] Persona insertada: 
+            Id Persona: None,
+            Nombre: Marcos,
+            Apellido: Tejada,
+            Email: tejmar@gmail.com
+        
+08:52:29 AM:DEBUG [cursor_del_pool.py:17] Se ejecuta el metodo exit
+08:52:29 AM:DEBUG [cursor_del_pool.py:23] Commit de la transación
+08:52:29 AM:DEBUG [conexion.py:49] Regresamos la conexion del pool: <connection object at 0x7fa0440a82c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:29 AM:DEBUG [persona_dao.py:72] Personas insertadas: 1
+08:52:29 AM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+08:52:29 AM:DEBUG [conexion.py:20] Conexion obtenida del poll: <connection object at 0x7fa0440a82c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:29 AM:DEBUG [cursor_del_pool.py:17] Se ejecuta el metodo exit
+08:52:29 AM:DEBUG [cursor_del_pool.py:23] Commit de la transación
+08:52:29 AM:DEBUG [conexion.py:49] Regresamos la conexion del pool: <connection object at 0x7fa0440a82c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 1,
+            Nombre: Juan Jose,
+            Apellido: Pena,
+            Email: jjpena@gmail.com
+        
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 2,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 8,
+            Nombre: Carlos,
+            Apellido: Lara,
+            Email: clar@gmail.com
+        
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 9,
+            Nombre: Marcos,
+            Apellido: Canto,
+            Email: mcanto@gmail.com
+        
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 10,
+            Nombre: Marcelo,
+            Apellido: Cuenca,
+            Email: CuencaM@gmail.com
+        
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 12,
+            Nombre: Maria,
+            Apellido: Esparza,
+            Email: mesparza@gmail.com
+        
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 13,
+            Nombre: Carlos,
+            Apellido: Lara,
+            Email: carlara@gmail.com
+        
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 14,
+            Nombre: Jorge,
+            Apellido: Fernandez,
+            Email: jorfer@gmail.com
+        
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 15,
+            Nombre: Alex,
+            Apellido: Rojas,
+            Email: alero@gmail.com
+        
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 16,
+            Nombre: Pedro,
+            Apellido: Romero,
+            Email: promero@gmail.com
+        
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 17,
+            Nombre: Homero,
+            Apellido: Romos,
+            Email: homero@gmail.com
+        
+08:52:29 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 19,
+            Nombre: Marcos,
+            Apellido: Tejada,
+            Email: tejmar@gmail.com
+        
+08:58:25 AM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+08:58:25 AM:DEBUG [conexion.py:38] Creación del poll exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fdcb2926b50>
+08:58:25 AM:DEBUG [conexion.py:20] Conexion obtenida del poll: <connection object at 0x7fdcb29ad2c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:58:25 AM:DEBUG [persona_dao.py:54] Los objetos eliminados son: 
+            Id Persona: 18,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+08:58:25 AM:DEBUG [cursor_del_pool.py:17] Se ejecuta el metodo exit
+08:58:25 AM:DEBUG [cursor_del_pool.py:23] Commit de la transación
+08:58:25 AM:DEBUG [conexion.py:49] Regresamos la conexion del pool: <connection object at 0x7fdcb29ad2c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:58:25 AM:DEBUG [persona_dao.py:61] Personas eliminadas: 0
+08:58:25 AM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+08:58:25 AM:DEBUG [conexion.py:20] Conexion obtenida del poll: <connection object at 0x7fdcb29ad2c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:58:25 AM:DEBUG [persona_dao.py:46] Persona actualizada: 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Pena,
+            Email: jjpena@gmail.com
+        
+08:58:25 AM:DEBUG [cursor_del_pool.py:17] Se ejecuta el metodo exit
+08:58:25 AM:DEBUG [cursor_del_pool.py:23] Commit de la transación
+08:58:25 AM:DEBUG [conexion.py:49] Regresamos la conexion del pool: <connection object at 0x7fdcb29ad2c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:58:25 AM:DEBUG [persona_dao.py:66] Personas actualizadas: 1
+08:58:25 AM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+08:58:25 AM:DEBUG [conexion.py:20] Conexion obtenida del poll: <connection object at 0x7fdcb29ad2c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:58:25 AM:DEBUG [persona_dao.py:38] Persona insertada: 
+            Id Persona: None,
+            Nombre: Mateo,
+            Apellido: Torres,
+            Email: tmateo@gmail.com
+        
+08:58:25 AM:DEBUG [cursor_del_pool.py:17] Se ejecuta el metodo exit
+08:58:25 AM:DEBUG [cursor_del_pool.py:23] Commit de la transación
+08:58:25 AM:DEBUG [conexion.py:49] Regresamos la conexion del pool: <connection object at 0x7fdcb29ad2c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:58:25 AM:DEBUG [persona_dao.py:72] Personas insertadas: 1
+08:58:25 AM:DEBUG [cursor_del_pool.py:11] Inicio del método with y __enter__
+08:58:25 AM:DEBUG [conexion.py:20] Conexion obtenida del poll: <connection object at 0x7fdcb29ad2c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:58:25 AM:DEBUG [cursor_del_pool.py:17] Se ejecuta el metodo exit
+08:58:25 AM:DEBUG [cursor_del_pool.py:23] Commit de la transación
+08:58:25 AM:DEBUG [conexion.py:49] Regresamos la conexion del pool: <connection object at 0x7fdcb29ad2c0; dsn: 'user=mis_servers password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Pena,
+            Email: jjpena@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 2,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 8,
+            Nombre: Carlos,
+            Apellido: Lara,
+            Email: clar@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 9,
+            Nombre: Marcos,
+            Apellido: Canto,
+            Email: mcanto@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 10,
+            Nombre: Marcelo,
+            Apellido: Cuenca,
+            Email: CuencaM@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 12,
+            Nombre: Maria,
+            Apellido: Esparza,
+            Email: mesparza@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 13,
+            Nombre: Carlos,
+            Apellido: Lara,
+            Email: carlara@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 14,
+            Nombre: Jorge,
+            Apellido: Fernandez,
+            Email: jorfer@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 15,
+            Nombre: Alex,
+            Apellido: Rojas,
+            Email: alero@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 16,
+            Nombre: Pedro,
+            Apellido: Romero,
+            Email: promero@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 17,
+            Nombre: Homero,
+            Apellido: Romos,
+            Email: homero@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 19,
+            Nombre: Marcos,
+            Apellido: Tejada,
+            Email: tejmar@gmail.com
+        
+08:58:25 AM:DEBUG [persona_dao.py:77] 
+            Id Persona: 20,
+            Nombre: Mateo,
+            Apellido: Torres,
+            Email: tmateo@gmail.com
+        

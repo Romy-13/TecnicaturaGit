@@ -1,0 +1,136 @@
+11:42:25 AM:DEBUG [loggin_base.py:14] Mensaje a nivel debug
+11:42:25 AM:INFO [loggin_base.py:16] Mensaje a nivel info
+11:42:25 AM:WARNING [loggin_base.py:18] Mensaje a nivel warning
+11:42:25 AM:ERROR [loggin_base.py:21] Mensajea anivel error
+11:42:25 AM:CRITICAL [loggin_base.py:23] Mensaje a nivel critical
+11:58:49 AM:DEBUG [loggin_base.py:14] Mensaje a nivel debug
+11:58:49 AM:INFO [loggin_base.py:16] Mensaje a nivel info
+11:58:49 AM:WARNING [loggin_base.py:18] Mensaje a nivel warning
+11:58:49 AM:ERROR [loggin_base.py:21] Mensajea anivel error
+11:58:49 AM:CRITICAL [loggin_base.py:23] Mensaje a nivel critical
+04:47:14 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+04:49:17 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+04:50:29 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+04:52:43 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+04:52:43 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
+04:55:48 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+04:55:48 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
+04:56:19 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+04:56:19 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
+04:56:37 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+04:56:37 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
+04:57:04 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+04:57:04 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
+04:57:13 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+04:57:13 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
+04:57:38 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+04:57:38 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
+05:11:35 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+05:11:35 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
+05:11:55 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jp@gmail.com
+        
+05:11:55 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Torres,
+            Email: jotorres@gmail.com
+        
